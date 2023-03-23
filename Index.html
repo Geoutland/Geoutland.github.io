@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>March 8th HTML CSS Static Web Page Design</title>
+
+    <style>
+        #main {
+            background-color: lightgoldenrodyellow;
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #TitleDiv {
+            background-color: deeppink;
+            font-size: 30px;
+            font-weight: bold;
+            color: darkblue;
+        }
+
+        #BodyDiv {
+            background-color: mediumpurple;
+            display: flex;
+            flex-direction: row;
+        }
+
+        #NewDiv {
+            background-color: #ededed;
+            margin: 0;
+        }
+
+        #FooterDiv {
+            background-color: #faf7f7;
+            color: dimgray;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 100px;
+            align-items: center;
+            margin: 0;
+        }
+
+        #LeftDiv {
+            background-color: lightpink;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #RightDiv {
+            background-color: lightblue;
+        }
+
+        #biodiv {
+            background-color: peachpuff;
+        }
+
+        #lowdiv {
+            background-color: aliceblue;
+            display:flex;
+            flex-direction:row;
+        }
+        #interestdiv
+        {
+            background-color:limegreen;
+        }
+        #edudiv
+        {
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="main">
+        <div id="TitleDiv">
+            Gabriel Outland
+        </div>
+
+        <div id="BodyDiv">
+            <div id="LeftDiv">
+                <div><img style="width:200px;border-radius: 50%;" src="static/imgs/head1.png" /></div>
+                <div style="font-size:25px">Gabriel Outland</div>
+                <div><br />Student in Management Information Systems</div>
+                <div><br />The University of Oklahoma</div>
+                <div>
+                    <a>
+                        <img style="width:30px;" src="static/imgs/email.png;" />
+                    </a>
+                    mailto:Gabriel.E.Outland-1@ou.edu
+
+
+                    https://www.linkedin.com/
+                    https://twitter.com/
+                    https://www.instagram.com
+                </div>
+            </div>
+            <div id="RightDiv">
+
+                <div id="biodiv">
+                    <span style="font-size: 30px; font-weight:bold;">biography</span>
+                    <p>
+                        I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market.
+                    </p>
+                    <p>
+                        My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.
+                    </p>
+                    <p>
+                        For more information, please refer to my <a href="static/files/cv.pdf" target="_blank">CV.</a>
+                    </p>
+                </div>
+                <div id="lowdiv">
+
+                    <div id="interestdiv">
+                        <span style="font-size:30px;font-weight:bold">Interests</span>
+                        
+                        <ol>
+                            <li>Analyst/Programmer</li>
+                            <li>Business Analyst</li>
+                            <li>Database Administration</li>
+                            <li>Web Developer</li>
+                            <li>Data Scientists</li>
+                        </ol>
+
+                    </div>
+                    <div id="edudiv">
+                        <span style="font-size:30px;font-weight:bold;">Education</span>
+
+                        <ol>
+                            <li>
+                                M.S. in Management Information Systems, 2024<br/>
+                                The University of Oklahoma
+                            </li>
+
+                            <li>
+                                B.E. in Management Information Systems, 2022<br/>
+                                The University of Oklahoma
+                            </li>
+                        </ol>
+                    </div>
+                
+                </div>
+
+            </div>
+        </div>
+
+        <div id="NewDiv">
+            <span style="font-weight:bold;font-size: 25px">Recent News</span>
+            <ul>
+
+                <li>Learning C# Web Application Design</li>
+                <li>Learning C# EF</li>
+
+            </ul>
+
+        </div>
+        <div id="FooterDiv">
+            Designed and Published by Gabriel Outland
+        </div>
+
+    </div>
+
+</body>
+</html>
